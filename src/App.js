@@ -1,19 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <header id="header">
+        <div className="content">
+          <h1><a href="#">Boone Osborn</a></h1>
+          <p>Full stack developer with over 14 years experience.<br />
+          A passion and expertise for the front end.<br/>
+          Team leader.</p>
+          <ul className="actions">
+            <li><a href="#one" className="button icon fa-chevron-down scrolly">About</a></li>
+            <li><a href="#two" className="button icon fa-chevron-down scrolly">Technologies</a></li>
+            <li><a href="#three" className="button icon fa-chevron-down scrolly">Work History</a></li>
+            <li><a href="#four" className="button icon fa-chevron-down scrolly">Contact</a></li>
+          </ul>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        <div className="image frame">
+          <div className="inner">
+            <img src="http://booneosborn.azurewebsites.net/images/me.jpg" alt="" />
+          </div>
+        </div>
+      </header>
     );
   }
 }
