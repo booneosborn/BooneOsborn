@@ -26,3 +26,22 @@ ReactDOM.render(
   <Contact />,
   document.getElementById('contact')
 );
+
+function init() {
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 200,
+            header = document.getElementById("header"),
+            about = document.getElementById("about");
+        if (distanceY > shrinkOn) {
+            header.classList.add("smaller");
+            about.classList.add("scrolled");
+        } else {
+            if (header.classList.contains("smaller")) {
+            header.classList.remove("smaller");
+            about.classList.remove("scrolled");
+            }
+        }
+    });
+}
+window.onload = init();
