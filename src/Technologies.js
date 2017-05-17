@@ -7,6 +7,9 @@ class Technologies extends Component {
 			<header className="major">
 				<h2>Technologies Used</h2>
 				<p>Rough list of technolgies and tools used along the way</p>
+        <div className="linewrapper">
+          <span className="smallgrey growing-line aos-init aos-animate" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="100"></span>
+      </div>
 			</header>
 	        <ul className="icons major">
 				<li>HTML 5</li>
