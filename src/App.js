@@ -5,15 +5,18 @@ class App extends Component {
   render() {
     return (
       <header id="header">
-        <div className="content">
+        <div className="content" data-aos="fade-in" data-aos-delay="200" data-aos-duration="2500">
           <h1><a href="#">Boone Osborn</a></h1>
-          <p>Full stack developer with over 14 years experience.<br />
-          A passion and expertise for the front end.<br/>
-          Team leader.</p>
+          <p>
+            <div data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1500">Full stack developer with over 14 years experience.</div>
+            <div data-aos="fade-right" data-aos-delay="2000" data-aos-duration="1500">A passion and expertise for the front end.</div>
+            <div data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1500">Team leader.</div>
+          </p>
           <ul className="actions">
-            <li><a href="#about" className="button icon fa-chevron-down scrolly">About</a></li>
+            <li><a href="#one" className="button icon fa-chevron-down scrolly">About</a></li>
             <li><a href="#two" className="button icon fa-chevron-down scrolly">Technologies</a></li>
             <li><a href="#three" className="button icon fa-chevron-down scrolly">Work History</a></li>
+            <li><a href="#four" className="button icon fa-chevron-down scrolly">Contact</a></li>
           </ul>
         </div>
         <div className="image frame">
