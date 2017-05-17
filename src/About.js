@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
     return (
-      <section id="one" className="wrapper style2 special">
+      <section id="about" className="wrapper style2 special">
           <h3>I have been in the web application development field since 2003 where I focused on front 
           end experience in HTML, CSS, and JS. Since 2004 I have also been focused on object oriented 
           programming in C# and SQL. My passion is in the front end where I can focus on attractive user 
