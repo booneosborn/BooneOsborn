@@ -13,10 +13,10 @@ class App extends Component {
             <div data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1500">Team leader.</div>
           </p>
           <ul className="actions">
-            <li><a href="#one" className="button icon fa-chevron-down scrolly">About</a></li>
-            <li><a href="#two" className="button icon fa-chevron-down scrolly">Technologies</a></li>
-            <li><a href="#three" className="button icon fa-chevron-down scrolly">Work History</a></li>
-            <li><a href="#four" className="button icon fa-chevron-down scrolly">Contact</a></li>
+            <li><a href="#about" className="button icon fa-chevron-down scrolly">About</a></li>
+            <li><a href="#technologies" className="button icon fa-chevron-down scrolly">Technologies</a></li>
+            <li><a href="#history" className="button icon fa-chevron-down scrolly">Work History</a></li>
+            <li><a href="#contact" className="button icon fa-chevron-down scrolly">Contact</a></li>
           </ul>
         </div>
         <div className="image frame">
