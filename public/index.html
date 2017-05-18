@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="aos.css" />
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="aos.js"></script>
+    <script src="scrolly.min.js"></script>
     <title>Boone Osborn</title>
   </head>
   <body>
@@ -20,6 +21,7 @@
 </html>
 <script>
     jQuery(document).ready(function(){
-        AOS.init({duration: 1000});
+        Scrolly.init(); 
+        AOS.init({duration: 1000, offset:-100});
     });
 </script>
